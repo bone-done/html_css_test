@@ -1,0 +1,73 @@
+main {
+    background-color:rgb(229, 226, 226);
+    margin: 30px 50px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    padding: 30px 250px;
+    
+}
+
+article section.left {
+    width: 500px;
+    flex: 1.5;
+}
+
+article section.left h3, div, h4{
+    width: 500px;
+    background-color: white;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+article section.left div {
+    font-family:serif;
+    font-size: smaller; 
+    color: gray;
+}
+
+article section.left div.italic {
+    font-style: italic;
+}
+
+
+article section.left img {
+    width: 520px;
+}
+
+article section aside {
+    width: 300px;
+}
+
+article section aside img {
+    width: 320px;
+}
+
+article section aside div {
+    font-family:serif;
+    font-size: smaller; 
+    color: gray;
+    background-color: white;
+}
+
+article section.right aside div, h2 {
+    width: 300px;
+    padding: 10px 10px;
+    margin: 0;
+    background-color: white;
+}
+
+
+
+article section aside.bottom img {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
