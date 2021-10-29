@@ -6,7 +6,7 @@ main {
 article {
     display: flex;
     justify-content: center;
-    padding: 30px 250px;
+    padding: 30px 150px;
     
 }
 
@@ -15,7 +15,14 @@ article section.left {
     flex: 1.5;
 }
 
-article section.left h3, div, h4{
+article section.left h3, h4{
+    width: 500px;
+    background-color: white;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+article section.left div{
     width: 500px;
     background-color: white;
     padding: 10px 10px;
